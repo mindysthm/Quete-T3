@@ -1,0 +1,11 @@
+  445  grep "Biarritz" Wilders.csv > biarritz.csv
+  446  grep "Toulouse" Wilders.csv > toulouse.csv
+  447  grep "Javascript" Wilders.csv > javascript.csv
+  448  cat javascript.csv toulouse.csv biarritz.csv | sor -u > javascript_biarritz_toulouse.csv
+  449  cat javascript.csv toulouse.csv biarritz.csv | sort -u > javascript_biarritz_toulouse.csv
+  450  history
+  451  tail
+  452  history > history.txt
+  453  cat history.txt
+  454  cat javascript_biarritz_toulouse.csv
+  455  history

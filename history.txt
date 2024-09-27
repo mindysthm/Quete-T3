@@ -1,4 +1,4 @@
- 395  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv  
+395  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
   396  head wilders.csv
   397  head Wilders.csv
   398  head 6-n wilders.csv
@@ -10,17 +10,17 @@
   404  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o Wilders.csv
   405  head Wilders.csv
   406  grep "PHP" < Wilders.csv | wc -1
-  407  grep "PHP" < Wilders.csv 
+  407  grep "PHP" < Wilders.csv
   408  grep "2019" < Wilders.csv
   409  grep "PHP;2019;France" > php_france_2019.csv
   410  grep "PHP;2019;France" < Wilders.csv
-  411  grep "France;2019;PHP" 
+  411  grep "France;2019;PHP"
   412  grep "France;2019;PHP" < Wilders.csv
   413  grep "France;2019;PHP" < Wilders.csv | wc -1
   414  grep "France;2019;PHP" > php_france_2019.csv
   415  grep "France,2019,PHP"  < wilders.csv | wc -l > php_france_2019.csv
   416  cat php_france_2019.csv
-  417  [200~
+  417
   418  grep "France,2019,PHP" Wilders.csv > php_france_2019.csv
   419  cat php_france_2019.csv
   420  man tail
@@ -72,3 +72,35 @@
   466  grep "France,2019,PHP" < Wilders.csv | wc -l > php_france_2019.csv
   467  rm history.txt
   468  history > history.txt
+  469  cat history.txt
+  470  PWD
+  471  rm javascript_biarritz_toulouse.csv
+  472  rm javascript
+  473  rm javascript.csv
+  474  rm toulouse.csv
+  475  rm biarritz.csv
+  476  rm toulousee.csv
+  477  frep "Biarritz,Javascript" Wilders.csv > biarritz.csv
+  478  grep "Biarritz,Javascript" Wilders.csv > biarritz.csv
+  479  cat biarritz.csv
+  480  grep "Biarritz,JavaScript" Wilders.csv > biarritz.csv
+  481  cat biarritz.csv
+  482  head Wilders.csv
+  483  grep "Biarritz,JavaScript" Wilders.csv > biarritz.csv
+  484  cat biarritz.csv
+  485  grep "Toulouse,JavaScript" Wilders.csv > toulouse.csv
+  486  cat toulouse.csv
+  487  grep "Toulouse" Wilders.csv > test.csv
+  488  grep "Javascript" test.csv > toulouse.csv
+  489  grep "Javascript" test.csv > toulouse1.csv
+  490  grep "JavaScript" test.csv > toulouse1.csv
+  491  rm test.csv
+  492  rm toulouse.csv
+  493  mv toulouse1.csv toulouse.csv
+  494  grep "Biarritz" Wilders.csv > test.csv
+  495  grep JavaScript" test.csv > biarritz.csv
+  496  history
+  497  grep "JavaScript" test.csv > biarritz.csv
+  498  rm test.csv
+  499  cat toulouse.csv biarritz.csv | sort -u > javascript_biarrits_toulouse.csv
+  500  history
